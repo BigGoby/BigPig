@@ -12,11 +12,11 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='whr',
+    name='whrtest',
     version='0.0.1',
-    author='a big boby',
+    author='A Big Boby',
     author_email='ilikepython@163.com',
-    description='Oh!',
+    description='Oh! whr',
     long_description=long_description,
     url='https://github.com/BigGoby/BigPig',
     packages=setuptools.find_packages(),
