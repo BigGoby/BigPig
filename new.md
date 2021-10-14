@@ -1,17 +1,23 @@
 # 将自己的Python包发布到Pypi
 
 ## 1.创建一个Git仓库(GitHub/Gitee)
-![](../images/1.jpg)  
+![](../images/1.jpg)
+![Image text](https://github.com/BigGoby/BigPig/blob/main/images/1.jpg)
 > 代码库创建完成后,通过git clone到本地 
 
 ## 2.编写测试用例代码
 > a.创建BigPig包
 ![](../images/1.2.jpg) 
+![Image text](https://github.com/BigGoby/BigPig/blob/main/images/1.2.jpg)
+
 > b.编写测试代码  
 ![](../images/2.jpg)
+![Image text](https://github.com/BigGoby/BigPig/blob/main/images/2.jpg)
 
 ## 3.创建setup.py和LICENSE文件
 ![](../images/3.jpg)
+![Image text](https://github.com/BigGoby/BigPig/blob/main/images/3.jpg)
+
 > + setup.py 包描述文件
 ```
 #!/usr/bin/env python3
@@ -46,6 +52,8 @@ setuptools.setup(
 > 参数解释
 
 ![图片](../images/28c248f3.png)
+![Image text](https://github.com/BigGoby/BigPig/blob/main/images/28c248f3.png)
+
 
 > + LICENSE
 ```
@@ -101,8 +109,12 @@ python3 -m pip install --upgrade twine
 
 > b.执行中如图所示
 > ![](../images/4.jpg)
+> ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/4.jpg)
+
 > c.执行完成后,你的项目目录会变成
 > ![](../images/5.jpg)
+> ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/5.jpg)
+
 > 会生成build,dist,xx.egg-info文件夹,其中库版本存在dist中,上传时会按照版本低->高逐步检查上传
 > 
 
@@ -113,16 +125,20 @@ twine upload dist/*
 
 > 出现以下连接就发布成功了
 > ![](../images/8.jpg)
+> ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/8.jpg)
+
 
 > 发布成功后可以在pypi官网查看到
 > ![](../images/11.jpg)
+> ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/11.jpg)
 > 
 
 ## 7.测试
 > a.进入你的虚拟环境,使用pip install xxx 安装你刚才发布的库
 > ![](../images/9.jpg)
+> ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/9.jpg)
 > b.显示安装成功后,启动python查看包是否可用
 > ![](../images/10.jpg)
-> 
+> ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/10.jpg)
 > 
 # Over！大功告成！
