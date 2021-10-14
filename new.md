@@ -51,7 +51,7 @@ setuptools.setup(
 ```
 > 参数解释
 
-![图片](../images/28c248f3.png)
+![](../images/28c248f3.png)
 ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/28c248f3.png)
 
 
