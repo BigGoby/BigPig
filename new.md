@@ -137,6 +137,7 @@ twine upload dist/*
 > a.进入你的虚拟环境,使用pip install xxx 安装你刚才发布的库
 > ![](../images/9.jpg)
 > ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/9.jpg)
+
 > b.显示安装成功后,启动python查看包是否可用
 > ![](../images/10.jpg)
 > ![Image text](https://github.com/BigGoby/BigPig/blob/main/images/10.jpg)
